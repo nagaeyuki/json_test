@@ -2,7 +2,7 @@
 
   # commit
   if [ -z "$1" ]; then
-      read -p "Commit message: " commitMessage
+      read -p "コミットメッセージを入力: " commitMessage
       git commit -m "$commitMessage"
   else
       git commit -m "$1"      
