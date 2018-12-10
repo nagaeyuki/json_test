@@ -1,4 +1,4 @@
- git add -A
+ git add .
 
   # commit
   if [ -z "$1" ]; then
